@@ -1,0 +1,24 @@
+/* Círculo*/
+
+#grafico-01 {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+
+}
+
+#grafico-01 img {
+	width: 100%;
+
+}
+
+/* Filtros */
+
+#grafico-01{
+    filter: drop-shadow(8px 8px 10px #333)
+}
+
+.filtro:hover{
+    filter: grayscale(100%)
+}
